@@ -6,7 +6,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/chagchagchag/my-nextra-template',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/chagchagchag/my-nextra-template',
   footer: {
     text: 'Nextra Docs Template',
   },
