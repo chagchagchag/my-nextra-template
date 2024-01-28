@@ -4,5 +4,6 @@ const withNextra = require('nextra')({
 })
 
 module.exports = withNextra({
-  distDir: 'dist'
+  distDir: 'dist',
+  basePath: '/my-nextra-template'
 })
