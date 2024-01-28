@@ -25,6 +25,6 @@ const nextConfig = {
 // })
 
 module.exports = {
-  ...withNextra,
+  ...withNextra(),
   ...nextConfig,
 }
