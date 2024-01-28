@@ -12,12 +12,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  reactStrictMode: true,
-  swcMinify: true,
-  trailingSlash: true,
-  assetPrefix,
+  // reactStrictMode: true,
+  // swcMinify: true,
+  // trailingSlash: true,
+  // assetPrefix,
   basePath: "/my-nextra-template",
-  output: "export",
+  // output: "export",
 }
 
 // module.exports = withNextra({
