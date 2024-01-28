@@ -3,10 +3,10 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.tsx',
 })
 
-// const isProduction = process.env.NODE_ENV === "production";
-// const assetPrefix = isProduction ? "/my-nextra-template" : "";
+const isProduction = process.env.NODE_ENV === "production";
+const assetPrefix = isProduction ? "/my-nextra-template" : "";
 
-const assetPrefix = "/my-nextra-template";
+// const assetPrefix = "/my-nextra-template";
 
 const nextConfig = {
   images: {
@@ -16,7 +16,7 @@ const nextConfig = {
   swcMinify: true,
   trailingSlash: true,
   assetPrefix,
-  basePath: "/my-nextra-template",
+  basePath: assetPrefix,
   // distDir: 'dist',
 }
 
