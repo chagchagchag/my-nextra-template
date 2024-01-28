@@ -9,7 +9,7 @@
     "start": "next start",
     "generate": "next build",
     "deploy": "gh-pages -d out -t true",
-    "export": "next build && next export"
+    "export": "next build && touch out/.nojekyll"
   },
   "repository": {
     "type": "git",
