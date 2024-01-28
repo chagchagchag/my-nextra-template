@@ -3,6 +3,9 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.tsx',
 })
 
+const isProduction = process.env.NODE_ENV === "production";
+const assetPrefix = isProduction ? "/reading-notes" : "";
+
 const nextConfig = {
   images: {
     unoptimized: true,
