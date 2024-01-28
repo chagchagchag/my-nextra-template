@@ -2,7 +2,7 @@
   "name": "nextra-docs-template",
   "version": "0.0.1",
   "description": "Nextra docs template",
-  "homepage": "http://chagchagchag.github.io/my-nextra-template",
+  "homepage": "https://chagchagchag.github.io/my-nextra-template",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
