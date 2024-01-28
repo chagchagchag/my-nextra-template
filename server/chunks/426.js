@@ -1,0 +1,1 @@
+"use strict";exports.id=426,exports.ids=[426],exports.modules={8426:(t,e,s)=>{s.d(e,{Z:()=>c});var o=s(997);s(6689);let r={logo:o.jsx("span",{children:"My Project"}),project:{link:"https://github.com/shuding/nextra-docs-template"},chat:{link:"https://discord.com"},docsRepositoryBase:"https://github.com/shuding/nextra-docs-template",footer:{text:"Nextra Docs Template"}},c=r}};
